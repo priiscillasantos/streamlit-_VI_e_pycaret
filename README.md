@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto Final - Credit Scoring com PyCaret e Streamlit
 
 Este projeto foi desenvolvido como parte do Módulo 38 do curso Profissão Cientista de Dados da EBAC.
@@ -35,3 +36,37 @@ Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+=======
+# Projeto Final - Módulo 38
+
+Este projeto desenvolve um modelo de credit scoring para cartão de crédito e uma aplicação Streamlit para escoragem de bases em CSV.
+
+## Arquivos principais
+
+- `Mod38Projeto_resolvido.ipynb`: notebook completo com análise, modelagem, pipeline, PyCaret e salvamento do modelo.
+- `app.py`: aplicação Streamlit para carregar um CSV e gerar o score dos clientes.
+- `model_final.pkl`: arquivo gerado pelo notebook com o pipeline treinado.
+- `requirements.txt`: bibliotecas necessárias para execução.
+
+## Como executar
+
+Primeiro, execute o notebook `Mod38Projeto_resolvido.ipynb` para gerar o arquivo `model_final.pkl`.
+
+Depois, rode a aplicação:
+
+```bash
+streamlit run app.py
+```
+
+Na aplicação, envie um arquivo CSV com as variáveis do modelo e clique em **Escorar base**.
+
+## Entrega
+
+Suba no GitHub:
+
+- notebook;
+- `app.py`;
+- `requirements.txt`;
+- vídeo ou GIF da aplicação funcionando;
+- README explicando como rodar o projeto.
+>>>>>>> 0091b9f (Adiciona projeto final de credit scoring)
