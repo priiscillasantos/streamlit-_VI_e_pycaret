@@ -4,6 +4,14 @@ Este projeto foi desenvolvido como parte do Módulo 38 do curso Profissão Cient
 
 O objetivo é construir um modelo de credit scoring para prever a probabilidade de inadimplência de clientes de cartão de crédito. O projeto contempla análise exploratória, tratamento de dados, regressão logística, pipeline com Scikit-learn, avaliação por métricas como Acurácia, AUC, Gini e KS, além de modelagem com PyCaret utilizando LightGBM.
 
+## Demonstração da aplicação
+
+A demonstração da aplicação Streamlit em funcionamento pode ser acessada pelo link abaixo:
+
+[Vídeo de demonstração][streamlit-app-2026-05-18-22-05-29.webm](https://github.com/user-attachments/assets/842767f9-4e6e-4110-b471-1adccf7ad04f)
+
+)
+
 ## Arquivos do projeto
 
 - `Mod38Exercicio1.ipynb`: notebook da atividade prática do módulo, com desenvolvimento inicial de credit scoring, pipeline e PyCaret.
