@@ -29,43 +29,36 @@ O objetivo é construir um modelo de credit scoring para prever a probabilidade 
 13. Salvamento do modelo treinado em pickle.
 14. Desenvolvimento de aplicação Streamlit.
 
-## Como executar
+## Kernel utilizado
+
+Para executar o notebook completo, principalmente a parte do PyCaret, foi utilizado o kernel:
+
+```text
+Python (EBAC PyCaret)
+```
+
+Esse kernel foi criado em um ambiente separado para evitar conflitos de dependências com outros projetos.
+
+## Como executar o projeto
 
 Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
-=======
-# Projeto Final - Módulo 38
+```
 
-Este projeto desenvolve um modelo de credit scoring para cartão de crédito e uma aplicação Streamlit para escoragem de bases em CSV.
-
-## Arquivos principais
-
-- `Mod38Projeto_resolvido.ipynb`: notebook completo com análise, modelagem, pipeline, PyCaret e salvamento do modelo.
-- `app.py`: aplicação Streamlit para carregar um CSV e gerar o score dos clientes.
-- `model_final.pkl`: arquivo gerado pelo notebook com o pipeline treinado.
-- `requirements.txt`: bibliotecas necessárias para execução.
-
-## Como executar
-
-Primeiro, execute o notebook `Mod38Projeto_resolvido.ipynb` para gerar o arquivo `model_final.pkl`.
-
-Depois, rode a aplicação:
+Execute a aplicação Streamlit:
 
 ```bash
 streamlit run app.py
 ```
 
-Na aplicação, envie um arquivo CSV com as variáveis do modelo e clique em **Escorar base**.
+## Aplicação
 
-## Entrega
+A aplicação permite carregar uma base de clientes, aplicar o modelo treinado e gerar a probabilidade estimada de inadimplência para cada registro.
 
-Suba no GitHub:
+## Observação
 
-- notebook;
-- `app.py`;
-- `requirements.txt`;
-- vídeo ou GIF da aplicação funcionando;
-- README explicando como rodar o projeto.
->>>>>>> 0091b9f (Adiciona projeto final de credit scoring)
+O arquivo original da base de dados não foi incluído no repositório por questões de tamanho e organização. Para executar o notebook completo, é necessário manter a base `credit_scoring.ftr` localmente na mesma pasta do projeto.
+
+O modelo utilizado na aplicação Streamlit é o arquivo `model_final.pkl`, salvo a partir do pipeline de pré-processamento e regressão logística desenvolvido no notebook.
