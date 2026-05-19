@@ -2,3 +2,4 @@ credit_scoring.ftr
 logs.log
 __pycache__/
 .ipynb_checkpoints/
+base_teste_app.csv
