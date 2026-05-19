@@ -71,6 +71,7 @@ O arquivo original da base de dados não foi incluído no repositório por quest
 
 O modelo utilizado na aplicação Streamlit é o arquivo `model_final.pkl`, salvo a partir do pipeline de pré-processamento e regressão logística desenvolvido no notebook.
 
-O notebook `Mod38Projeto.ipynb` contempla a modelagem com PyCaret utilizando LightGBM.  
+O notebook `Mod38Projeto.ipynb` contempla a modelagem com PyCaret utilizando LightGBM.
+
 Para a aplicação Streamlit, foi utilizado o arquivo `model_final.pkl`, salvo a partir do pipeline de pré-processamento e regressão logística em Scikit-learn, tornando a aplicação mais leve para execução.
 
