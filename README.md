@@ -10,8 +10,6 @@ A demonstração da aplicação Streamlit em funcionamento pode ser acessada pel
 
 [Vídeo de demonstração][streamlit-app-2026-05-18-22-05-29.webm](https://github.com/user-attachments/assets/842767f9-4e6e-4110-b471-1adccf7ad04f)
 
-)
-
 ## Arquivos do projeto
 
 - `Mod38Exercicio1.ipynb`: notebook da atividade prática do módulo, com desenvolvimento inicial de credit scoring, pipeline e PyCaret.
