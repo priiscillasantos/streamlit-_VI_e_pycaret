@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projeto Final - Credit Scoring com PyCaret e Streamlit
 
 Este projeto foi desenvolvido como parte do Módulo 38 do curso Profissão Cientista de Dados da EBAC.
